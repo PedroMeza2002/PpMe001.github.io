@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .contenido{
     /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
     position: relative;
@@ -14,13 +19,14 @@ input {
 }
 
 button {
-  font-size: 15px;
+    font-size: 15px;
+    margin: 20px;
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
-	background-color: #FF416C;
-	border: 1px solid #FF416C;
-	color: #FFFFFF;
+	background-color: #c2871a;
+	border: 1px solid #c2871a;
+	color: #302e2e;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	transition: transform 20ms ease-in;
@@ -51,7 +57,7 @@ button:active {
 }
 
 #detalle{
-    background: #FF416C;
+    background: #c2871a;
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
@@ -65,9 +71,15 @@ button:active {
 }
 
 .resultado{
-    color: #0A81D1;
+    color: #c2871a;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 5px;
     display: none;
+}
+body {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-dia-internacional-enfermera-dibujado-mano_23-2149341238.jpg'); 
+    background-size:cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Mantiene la imagen en su lugar mientras se desplaza la página */
 }
