@@ -15,7 +15,6 @@ CALCULAR.addEventListener('click',() =>{
             let mantenimiento = flujo * 1.5;
             FLU.innerHTML = `Mantenimiento (Holliday-Segar): ${flujo} cc/hr`;
             MAN.innerHTML = `m+m/2: ${mantenimiento} cc/hr`;
-            resultadosAnteriores.push(flujo);
         } else {
             let { volumenDiario, mantenimiento } = calcularFlujoSuperficieCorporal(DATO);
             FLU.innerHTML = `Superficie Corporal * 1500: ${volumenDiario.toFixed(2)} cc/hr`;
